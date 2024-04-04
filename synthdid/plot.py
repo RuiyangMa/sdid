@@ -34,7 +34,7 @@ class Plot(object):
                 ax=ax, color="blue", linewidth=1, label="treatment group", alpha=0.6
             )
             result["sdid"].plot(
-                ax=ax, color="red", linewidth=1, label="syntetic control", alpha=0.6
+                ax=ax, color="red", linewidth=1, label="synthetic control", alpha=0.6
             )
             ax.plot(
                 [pre_point, post_point],
